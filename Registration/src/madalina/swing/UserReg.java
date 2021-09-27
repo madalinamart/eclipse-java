@@ -148,7 +148,7 @@ import java.awt.event.MouseEvent;
 	                }
 
 	                try {
-	                    Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/register", "root", "");
+	                    Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "");
 
 	                    String query = "INSERT INTO register values('" + firstName + "','" + lastName + "','" + userName + "','" +
 	                        password + "','" + emailId + "','" + mobileNumber + "')";
